@@ -9,7 +9,7 @@ A responsive Next.js App Router project using Material UI and Microsoft SQL Serv
 
 ## Setup
 1. Open SQL Server Management Studio and run `sql/schema.sql`. It creates `CommunityEventsBoard`, the tables, indexes, and 15 sample events (active/inactive, past/upcoming, multiple cities/categories).
-2. Copy `.env.example` to `.env.local` and set your SQL Server credentials and a unique `JWT_SECRET`.
+2. .env file and set your SQL Server credentials and a unique `JWT_SECRET`.
 3. Install and run:
    ```bash
    npm install
