@@ -21,7 +21,7 @@ A responsive Next.js App Router project using Material UI and Microsoft SQL Serv
 - Email: `admin@fyerx.com`
 - Password: `Admin@12345`
 
-Change these in `.env.local` before deployment. The demo admin is configured in environment variables and validated server-side. User/admin APIs verify JWTs server-side. Do not use the fallback JWT secret in production.
+Change these in `.env` before deployment. The demo admin is configured in environment variables and validated server-side. User/admin APIs verify JWTs server-side. Do not use the fallback JWT secret in production.
 
 ## API overview
 - `POST /api/auth/signup` — `{name,email,password}`; returns JWT and user.
